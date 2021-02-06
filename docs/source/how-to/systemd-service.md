@@ -2,6 +2,8 @@
 
 This guide walks you through setting up Deluge systemd services on Linux.
 
+** If you followed the installation guide from the docs, MAKE SURE DELUGED is also installed! **
+
 Ensure Deluge daemon `deluged` and Web UI `deluge-web` are installed. Use
 `which` to check installation paths and if necessary modify the service
 file `ExecStart` lines to point to alternative paths.
